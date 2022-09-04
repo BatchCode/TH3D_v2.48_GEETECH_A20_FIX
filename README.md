@@ -8,10 +8,13 @@ In some cases, flashing may require the GND ISCP pin to be shocked twice for fla
 The wiring diagram `wiring-diag.png` to flash the ATMega2560 board through ISCP using and Arduino Uno is also included in the root folder of this repo.
 
 --- COMPILATION INFO ---
-You can either compile manually the firmware yourself, using the provided modified source code (or) simply use the compiled `firmware.hex` / `firmware.bin` that is provided in the root folder of this repo.
+You can either compile manually the firmware yourself, using this source code (or) simply use the compiled `firmware.hex` / `firmware.bin` that is provided in the root folder of this repo.
 
 --- SOURCECODE INFO ---
 ALL changes are annotated under the tag "BC:" (eg: "BC: Modified by BatchCode").
+
+--- TEST FIRMWARE INFO ---
+If you wish to quickly test the new uploaded firmware to check its performance, you can use the provided `cube_xyz.gcode` (in the root folder of this repo) that will actually print a calibration cube of 2cm height.
 
 # PERSONNAL NOTE/ the following documentation has to be reworked later on.
 ## DONT FORGET TO ADD DOCUMENTATION ABOUT INSTALLING AND SETING UP ARDUINO IDE
